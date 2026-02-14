@@ -35,7 +35,7 @@ function capitalize(input){
     if(typeof input != 'string' ){
       throw new Error("Invalid input!");
     }
-
+     input=input.trimStart();
     let output=[];
     let input2= input.split("");
      for(let i=0;i<input2.length;i++){
@@ -382,3 +382,18 @@ function checkRange(num,min,max){
   }
 }
 
+module.exports={
+      removeExtraSpaces,
+      capitalize,
+      toCamelCase,
+      toSnakeCase,
+      isValidEmail,
+      removeDuplicates,
+      flattenArray,
+      findMax,
+      findAverage,
+      getDiscount,
+      toClamp,
+      generateRange,
+      checkRange
+};
