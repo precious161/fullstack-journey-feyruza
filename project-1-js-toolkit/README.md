@@ -4,7 +4,7 @@
 
 **1. Overview**
 
- This is a lightweight JavaScript library providing 13 reusable utility functions for string manipulation, array transformation, and numeric operations. Built with a focus on defensive programming, every function includes input validation and error handling.
+ This is a lightweight JavaScript library providing 13 reusable utility functions for string manipulation, array transformation, and numeric operations. Built with a  every function including input validation and error handling.
 
 **2. Features**
 
@@ -18,7 +18,7 @@
 
 - Email Validation: Basic heuristic check for valid email formats.
 
- ** 2.2 Array Utilities**
+**2.2 Array Utilities**
 
 - Data Cleaning: Removes duplicates and flattens nested arrays.
 
@@ -26,7 +26,7 @@
 
 - Business Logic: Includes a getDiscount function for bulk price processing.
 
- ** 2.3 Numeric Utilities**
+**2.3 Numeric Utilities**
 
 - Clamping: Constrains a number within a [min, max] range.
 
