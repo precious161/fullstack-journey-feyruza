@@ -1,13 +1,14 @@
-JS Utility Toolkit
+**JS Utility Toolkit**
 
-Project 1 - Baseline JS Fluency
+**Project 1 - Baseline JS Fluency**
 
-1. Overview
-   This is a lightweight JavaScript library providing 13 reusable utility functions for string manipulation, array transformation, and numeric operations. Built with a focus on defensive programming, every function includes input validation and error handling.
+**1. Overview**
 
-2. Features
+ This is a lightweight JavaScript library providing 13 reusable utility functions for string manipulation, array transformation, and numeric operations. Built with a focus on defensive programming, every function includes input validation and error handling.
 
-2.1 String Utilities
+**2. Features**
+
+**2.1 String Utilities**
 
 - Normalize Whitespace: Removes leading/trailing and internal extra spaces.
 
@@ -17,7 +18,7 @@ Project 1 - Baseline JS Fluency
 
 - Email Validation: Basic heuristic check for valid email formats.
 
-  2.2 Array Utilities
+ ** 2.2 Array Utilities**
 
 - Data Cleaning: Removes duplicates and flattens nested arrays.
 
@@ -25,13 +26,16 @@ Project 1 - Baseline JS Fluency
 
 - Business Logic: Includes a getDiscount function for bulk price processing.
 
-  2.3 Numeric Utilities
+ ** 2.3 Numeric Utilities**
 
 - Clamping: Constrains a number within a [min, max] range.
 
 - Range Generation: Creates custom numeric ranges with specific steps.
+  
 
-3. Installation & Usage
+**3. Installation & Usage**
+
+   
    To use this toolkit, clone the repository and install dependencies:
 
 `npm install`
@@ -45,7 +49,9 @@ Example Call:
 const utils = require('./src/utils');
 console.log(utils.capitalize("hello world")); // "Hello World"
 
-4. Testing
+
+**4. Testing**
+
    This project uses Jest for automated unit testing to ensure reliability and handle edge cases.
 
 Total Test Cases: 10
