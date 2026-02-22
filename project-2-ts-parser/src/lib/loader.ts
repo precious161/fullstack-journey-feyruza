@@ -5,6 +5,6 @@ export function getDataFromFile(file: string): DataPackage{
    const rawData=fs.readFileSync(file,"utf-8")
 
    const data=JSON.parse(rawData) as DataPackage;
-   return data
+   return data;
 }
 

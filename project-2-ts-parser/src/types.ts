@@ -1,6 +1,6 @@
-type OrderStatus= 'Pending' | 'Paid' | 'Cancelled';
+export type OrderStatus= 'Pending' | 'Paid' | 'Cancelled';
 
-interface User{
+export interface User{
   id: number
   name: string
   email: string
@@ -8,7 +8,7 @@ interface User{
   createdAt: string
 }
 
-interface Order{
+export interface Order{
   id:number
   userId: number
   amount: number
@@ -16,7 +16,7 @@ interface Order{
   createdAt: string
 }
 
-interface DataPackage{
+export interface DataPackage{
   users: User[]
   orders: Order[]
 }

@@ -11,7 +11,7 @@ export function ValidateData(Data: DataPackage): string[]{
     });
 
       Data.users.forEach(user=>{
-        if(!user.email.includes("@")){
+        if(!user.email.includes("@") || typeof user.email!=='string'){
              errors.push(`User with id of ${user.id} has invalid email!`);
         }
         if(typeof user.role !== 'string'){
