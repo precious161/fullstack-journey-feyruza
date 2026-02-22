@@ -68,3 +68,21 @@ The input JSON must follow this structure:
 `amount (number)`
 `status (Pending | Paid | Cancelled)`
 `createdAt (string)`
+
+**Example Output**
+
+Valid Input
+
+`Metrics Summary:`
+`Total Users: 2`
+`Total Orders: 3`
+`Total Amount: 150`
+`Average Amount: 50`
+
+Invalid Input
+
+Validation Errors:
+
+- User with id of 2 has invalid email!
+- Order with user id of 999 doesn't exist!
+- Order with id of 101 has invalid status!
