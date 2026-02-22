@@ -1,0 +1,42 @@
+{"users":[{
+"id": 1,
+"name": "Abebe",
+"email": "Abebe@gmal.com",
+"role": "Teacher",
+"createdAt": "2024-02-01"
+},
+{
+  "id": 2,
+  "name" : "Almaz",
+  "email": "Almaz@gmal.com",
+  "role": "Doctor",
+  "createdAt": "2023-05-04"
+},{
+  "id": 3,
+"name": "Ahmed",
+"email": "Ahmed@gmal.com",
+"role": "Engineer",
+"createdAt": "2025-05-07"
+
+}],
+"orders":[{
+     "id": 101,
+     "userId": 1,
+     "amount": 230,
+     "status": "Paid",
+     "createdAt":"2023-04-04"
+},{
+  "id":102,
+  "userId": 2,
+  "amount": 290,
+  "status": "Pending",
+  "createdAt": "2025-06-06"
+},{
+  "id": 103,
+  "userId": 3,
+  "amount": 345,
+  "status": "Cancelled",
+  "createdAt": "2025-06-07"
+}]
+}
+
